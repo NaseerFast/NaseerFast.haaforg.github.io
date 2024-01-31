@@ -58,7 +58,49 @@
     .tab-content.active {
       display: block;
     }
+
+    .social-icons{
+	padding:30px;
+	/* background-color:#00506b; */
+  text-align: center;
+  display: inline-flex;
+}
+.social-icons a{
+	color:#fff;
+  line-height:30px;
+  font-size:30px;
+  margin: 0 5px;
+  text-decoration:none;
+  
+}
+.social-icons a i{
+	line-height:30px;
+  font-size:30px;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1); 
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1); 
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+}
+.social-icons a:hover i{
+  box-shadow: 0px 0px 150px #000000;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.5);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.5);   
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.5);
+  transition: all 200ms ease-in;
+  transform: scale(1.5);
+}
 </style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
@@ -1275,11 +1317,11 @@ At HAAF, our mission is to empower communities through holistic education and hu
       </ul>
       <center>
   
-        <div style="display: inline-flex;">
+        <!-- <div style="">
         <a href="https://x.com/HAAF_se?t=VqsuD9-EBucVWLTjQ3Uwgw&s=09" class="">
-        <!----  TWITTER ICON  --->
+        !----  TWITTER ICON  ---
         <svg xmlns="http://www.w3.org/2000/svg" width="24"
-            height=24" fill="currentColor" class="bi bi-twitter"
+            height="24" fill="currentColor" class="bi bi-twitter"
             viewBox="0 0 16 16">
  
             <path d="M5.026 15c6.038 0 9.341-5.003 
@@ -1297,7 +1339,7 @@ At HAAF, our mission is to empower communities through holistic education and hu
         </svg>
         </a>
  
-        <!----  GOOGLE ICON  --->
+        !----  GOOGLE ICON  ---
 
         <a href="https://www.instagram.com/haaf_se?igsh=YzVkODRmOTdmMw==" class="">
         <svg xmlns="http://www.w3.org/2000/svg" width="24"
@@ -1315,7 +1357,7 @@ At HAAF, our mission is to empower communities through holistic education and hu
         </svg>
         </a>
  
-        <!---- YOUTUBE ICON  --->
+        <!---- YOUTUBE ICON  --
         <a href="https://www.youtube.com/@hopeandawarenessfoundation2059" class="">
         <svg xmlns="http://www.w3.org/2000/svg" width="24"
             height="24" fill="currentColor" class="bi bi-youtube"
@@ -1347,6 +1389,29 @@ At HAAF, our mission is to empower communities through holistic education and hu
           <path d="M8 16V8H6V6h2V4.64C8 2.08 9.08 0 11.68 0c1.6 0 2.72.16 3.04.23v2.1h-2c-1.64 0-1.96.78-1.96 1.92v2h3.92l-.51 2H11.68v8H8z"/>
       </svg>
         </a>
+      </div> -->
+      <div class="social-icons">
+        <a href="https://www.facebook.com/HAAF.se?mibextid=ZbWKwL"  title="facebook"> 
+          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        </a>
+        <a href="https://x.com/HAAF_se?t=VqsuD9-EBucVWLTjQ3Uwgw&s=09" title="twitter"> 
+          <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.instagram.com/haaf_se?igsh=YzVkODRmOTdmMw==" title="instagram">  
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.youtube.com/@hopeandawarenessfoundation2059" title="youtube">
+          <i class="fa fa-youtube-square" aria-hidden="true"></i>
+        </a>
+        <!-- <a href="#" title="linkedin">
+          <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        </a>
+        <a href="#" title="pinterest">
+          <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+        </a>
+        <a href="#" title="camera">
+          <i class="fa fa-camera-retro" aria-hidden="true"></i>
+        </a> -->
       </div>
       </center>
 
