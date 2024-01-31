@@ -608,7 +608,7 @@ body {
 .service-card:is(:hover, :focus-within) { outline-color: var(--pistachio); }
 
 .service-card .card-icon {
-  color: var(--pistachio);
+  color: var(--white);
   font-size: 7rem;
   max-width: max-content;
   /* margin-inline: auto; */
